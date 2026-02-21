@@ -30,38 +30,6 @@ Where do SHAP and LIME agree — and where do they diverge?
 
 Can explainability tools fully restore trust in opaque models?
 
-📂 Project Structure
-explainable-ai-credit-risk/
-│
-├── data/
-│   └── raw/
-│       └── credit_default.csv
-│
-├── src/
-│   ├── config.py
-│   ├── data_loader.py
-│   ├── preprocessing.py
-│   ├── split.py
-│   ├── baselines.py
-│   ├── blackbox.py
-│   ├── explain_shap.py
-│   ├── explain_lime.py
-│   └── model_wrappers.py
-│
-├── experiments/
-│   ├── run_data_check.py
-│   ├── run_baselines.py
-│   ├── run_blackbox.py
-│   ├── run_global_explainability.py
-│   └── run_local_explainability.py
-│
-├── reports/
-│   ├── figures/
-│   └── research_notes.md
-│
-├── requirements.txt
-└── README.md
-
 📊 Dataset
 
 Source: UCI Credit Card Default Dataset (Taiwan)
